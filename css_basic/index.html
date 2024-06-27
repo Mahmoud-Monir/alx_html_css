@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Webpage Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            display: flex;
+            flex: auto;
+            flex-direction: row;
+            padding: 1rem;
+        }
+        article {
+            flex: 2;
+            padding: 1rem;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+        aside {
+            flex: 1;
+            padding: 1rem;
+            overflow-y: auto;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOW TO POSITION YOUR WEBPAGE APPROPRIATELY</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Main Article</h2>
+            <p>if you want to make a webpage you must use html to make this into reality, and this is the most basic method to do that, and this wont make you a good looking webpaage, so we must use css code to add more styling rules to our webpage.</p>
+            <!-- Add more content here to demonstrate scrolling -->
+        </article>
+        <aside>
+            <h2>Sidebar</h2>
+            <p>css stands for (cascading styling sheets).</p>
+            <!-- Add more content here to demonstrate scrolling -->
+        </aside>
+    </main>
+    <footer>
+        <p>Thanks for your peer grading</p>
+    </footer>
+</body>
+</html>
